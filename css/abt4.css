@@ -1,0 +1,324 @@
+body{
+margin: 0;
+padding: 0;
+width: 100%;
+}
+@font-face {
+    font-family: Trebble;
+    src: url('Trebble.ttf');
+}
+@font-face {
+    font-family: newfont;
+    src: url('newfont.woff2');
+}
+@font-face {
+    font-family: JosefinSans-Bold;
+    src: url('JosefinSans-Bold.ttf');
+}
+
+#h1 {
+font-family: 'Oswald';
+font-weight:normal;
+font-size: 55px;
+text-align: center;
+color: #fff;
+margin: 0;
+padding: 0;
+}
+#h2 {
+font-family: Oswald;
+font-weight: normal;
+font-size: 50px;
+text-align: center;
+color: #fff;
+margin: 0;
+padding: 0;
+}
+#h3 {
+font-family: Oswald;
+font-weight: normal;
+font-size: 21px;
+text-align: center;
+margin: 5px 0;
+top: 1px;
+padding: 1;
+position: relative;
+}
+#ribbon { 
+background: url('../images/abt/ribbon.png') no-repeat; 
+width: 251px; 
+height: 48px; 
+margin: 0 auto; 
+display: block; 
+position: relative; 
+top: -38px; 
+}
+#divider { 
+background: url('../images/abt/divider.png') no-repeat; 
+width: 300px; 
+height: 35px; 
+margin: 0px auto 27px auto; 
+margin-top: 5px;
+}
+#slide1{
+background:url('../images/abt/kb.jpg') 50% 0 no-repeat fixed;
+color: #fff;
+height: 300px;
+margin: 0;
+width: 100%;
+padding: 150px 0 150px 0;
+background-size: cover;
+margin-top: 81px;
+}
+#snowflakes1 { 
+background: url('../images/abt/snowflakes.png') no-repeat; 
+width: 24px; 
+height: 21px; 
+margin: 0 auto; 
+display: block; 
+position: relative; 
+bottom: -64px; 
+left: -99px; 
+}
+#snowflakes2 { 
+background: url('../images/abt/snowflakes.png') no-repeat; 
+width: 24px; 
+height: 21px; 
+margin: 0 auto; 
+display: block; 
+position: relative; 
+bottom: -43px; 
+right: -97px; 
+}
+#logo { 
+padding: 0px;
+margin-left: 595px;
+display: block;
+width: auto;
+position: relative;
+overflow: auto;
+height: auto;
+}
+#inv-tri {
+    width:auto;height:30px;margin-top:-1px;z-index:100;
+}
+.content {
+    margin-top: 0px;
+    width: 100%;
+}
+.top-intro {
+    background: none repeat scroll 0% 0% rgb(3, 35, 108);
+    color: rgb(0, 174, 239);
+    color: #fff;
+    font-size: 1em;
+    line-height: 1px;
+    font-family: 'Trebble';
+    height: 80px;
+    width: auto;
+    padding: 5px;
+    
+-webkit-box-shadow: 0px 8px 5px -2px rgba(208,209,224,1);
+-moz-box-shadow: 0px 8px 5px -2px rgba(208,209,224,1);
+box-shadow: 0px 8px 5px -2px rgba(208,209,224,1);
+}
+.text-center {
+    text-align: center !important;
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 1.6;
+    margin: 15 0 0 0;
+    padding: 5px;
+    
+}
+
+.try {
+    margin: 0;
+    text-align:center;
+}
+.icon {
+    height: 117px;
+    width: 117px;
+    display: inline-block;
+    text-align: center;
+    border: 5px rgb(231, 235, 240);
+    border-radius: 300px;
+    box-shadow: 5px 3px 8px #BCCBD8;
+}
+.bluecaps {
+    font-size: 1.8em;
+    color: #003369;
+    margin: 0.5em 0 .5em 0;
+    text-align: center !important;
+    line-height: 1;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: newfont;
+}
+.subtitle {
+    font-family: newfont;
+    font-size: 20px;
+    text-align: center;
+    margin-top: -10px;
+}
+.try-divider-arrow {
+    text-align: center;
+}
+.para-text {
+    text-align: center;
+    margin: auto;
+    font-family: newfont;
+    /* text-align: justify; */
+    color: #58585A;
+    font-weight: normal;
+    font-size: 14;
+    margin: 0 25 20 30;
+}
+.try-button {
+    margin: 0 0 15 0;
+    text-align: center;
+}
+.try-button > a {
+    color: rgb(255,255,255);
+    font-family: newfont;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 2px;
+    padding: 10 10 10 10;
+    background: linear-gradient(to bottom,#19A9E3 0%,rgb(0, 174, 239) 100%);
+    display: inline-block;
+    vertical-align: top;
+    text-transform: uppercase;
+    font-size: 15px;
+    width: 110px;
+}
+.try-button > a:hover {
+    color: rgb(0,174,239);
+    border-radius: 3px;
+    background: #fff;
+    border: 2px solid rgb(0,174,239);
+    width: 110px;
+}
+.container-div {
+    width: 100%;
+    height: 450px; 
+}
+.column {
+    width: 30%;
+    height: auto;
+    float: left !important;
+    padding: 20px 20px 0px 20px;
+    display: inline-block;
+}
+
+.acm-para-text {
+    font-family: newfont;
+    color: #58585A;
+    font-size: 15px;
+    text-align: justify;
+    margin: 0 70 16 70;
+}
+.contact {
+    width: 100%;
+    background: rgb(0, 74, 141);
+    padding: 1 0 1 0;
+    text-align: center;
+}
+.contact-text {
+    color: #fff;
+    font-size: 30;
+    font-family: newfont;
+}
+#abt {
+    font-family: JosefinSans-Bold;
+    margin-left: 70px;
+    font-weight: 300;
+    color: #00407E;
+    font-size: 40px;
+    margin-top: -15px;
+}
+/*Media*/
+@media (max-width: 1132px) {
+        .text-center {
+            font-size: 24px;
+        }
+}
+@media (max-width: 960px) {
+
+        #logo { 
+            margin-left: 355px;
+            overflow: hidden;
+        }
+        .text-center {
+            font-weight: 600;
+            font-size: 20px;
+        }
+        #slide1{
+            height: 200px;
+        }
+        #h2 {
+            font-size: 40px;
+        }
+        #h1 {
+            font-size: 35px;
+        }
+        #snowflakes1 {
+            bottom: -58px; 
+            left: -80px;
+        }
+        #snowflakes2 {
+            bottom: -37px; 
+            right: -79px;
+        }
+        .column {
+            width: 90%;
+        }
+        .contact-text {
+            font-size: 25px;
+        }     
+}
+@media (max-width: 640px) {
+
+        .text-center {
+            font-weight: 700;
+            font-size: 18px;
+            margin: 8px;
+        } 
+        .contact-text {
+            font-size: 25px;
+        } 
+        .acm-para-text {
+            font-size: 14px;
+            margin: 0 30 16 30;
+        }
+        #abt {
+            font-size: 35px;
+            margin: -15 40 16 40;
+            text-align: center;
+        }
+
+}
+@media (max-width: 439px) {
+    .text-center {
+            font-size: 15px;
+            margin: 8px;
+        } 
+        .contact-text {
+            font-size: 20px;
+        }
+}
+@media (max-width: 376px) {
+    .text-center {
+            font-weight: 600;
+            font-size: 14px;
+            margin: 8px;
+        } 
+        .contact-text {
+            font-size: 20px;
+        }
+        #abt {
+            font-size: 28px;
+        }
+}
+
+       

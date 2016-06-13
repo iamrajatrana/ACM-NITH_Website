@@ -1,0 +1,299 @@
+<html>
+<head>
+      <link rel="stylesheet" type="text/css" href="header.css">
+      <link rel="stylesheet" type="text/css" href="what_we.css">
+      <link rel="stylesheet" type="text/css" href="articles.css">
+      <link rel="stylesheet" type="text/css" href="footer.css">
+<link rel="icon" href="images/acm-logo.jpg" type="image/x-icon" />
+  
+       <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Cookie' type='text/css'>
+
+       <script>
+
+     wss_i=0;
+          wss_array=["Workshops","Lectures","Quiz","Contests"];
+
+
+          function wss_increment()
+          {
+            wss_i++;
+            wss.style.opacity = 0;
+            if(wss_i > (wss_array.length -1))
+            {
+              wss_i=0;
+            }
+              setTimeout('wss_animation()',1000);
+            
+          }
+           function wss_animation(){
+                    wss.style.opacity=1;
+                    wss.innerHTML=wss_array[wss_i];
+                    setTimeout('wss_increment()',2000);
+           }
+
+           function startArticles(){
+  var wScroll = $(window).scrollTop();
+
+  if($('.articles').offset().top - $(window).height()/1.2 < wScroll) {
+    $('.articles img').each(function(i){
+      setTimeout(function(){
+        $('.articles img').eq(i).addClass('is-visible');
+      }, 100 * i);
+    });
+  }
+}
+
+
+
+
+  setInterval(function(){ tada();},2000);
+  function tada(){
+                var randnum=Math.floor(Math.random()* $("#a2 img").length) + 1;
+                $(" #a2 img").eq(randnum).addClass("anime").siblings().removeClass("anime");
+          }
+
+           </script>
+
+</head>
+
+<body>
+      <div class="container">
+                 <div class="header">
+                       <div class="opacity"></div>
+                              <h1><p>NITH Student Chapter</p><br></h1>
+                              <h2>We organise <span id="WSS">contests</span></h2>
+                                      <script type="text/javascript">
+                                               var wss=document.getElementById("WSS");
+                                               wss_animation();
+                                      </script>
+      	                        <div class="arrow-down"></div>
+      	  
+                         
+                 </div>
+
+
+
+   <aside class="side-menu-basic">
+
+    <div class="side-menu-content">
+
+        <a href="#" class="side-menu-logo">ACM</a>
+
+        <p>
+            <a href="#" data-id="1">HOME</a>
+            <i class="fa fa-camera-retro"></i>
+        </p>
+
+        <p>
+            <a href="#" data-id="2">GALLERY</a>
+            <i class="fa fa-code"></i>
+        </p>
+
+        <p>
+            <a href="#" data-id="3">MEMBERS</a>
+            <i class="fa fa-comment"></i>
+        </p>
+
+        <p>
+            <a href="#" data-id="4">ABOUT US</a>
+            <i class="fa fa-arrow-circle-o-down"></i>
+        </p>
+
+    </div>
+
+    <span class="side-menu-close"><i class="fa fa-close"></i></span>
+
+           </aside>
+
+           
+           <div class="bt-menu-trigger" data-show-dialog="side-menu-basic"><span><i class="fa fa-tasks fa-3x"></span></div>
+      </div>
+      
+      
+      
+      <div class="what-we">
+        <h3>What we do<br><img src="images/h1-bg.png"></h3>
+          <section>
+                  <div class="icon">
+                      <i class="fa fa-laptop shadow"></i>
+                    </div>
+                    <h2>Digital Design</h2>
+                     <hr>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum consequat quis tempor nunc. Interdum et malesuada fames ac ante ipsum
+                    primis in faucibus.</p>
+                        
+          </section>
+          <section>
+                  <div class="icon">
+                      <i class="fa fa-heart shadow"></i>
+                    </div>
+                    <h2>Web Development</h2>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum consequat quis tempor nunc. Interdum et malesuada fames ac ante ipsum
+                    primis in faucibus.</p>
+                        
+          </section>
+          <section>
+                  <div class="icon">
+                      <i class="fa fa-laptop shadow"></i>
+                    </div>
+                    <h2>Creative Direction</h2>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum consequat quis tempor nunc. Interdum et malesuada fames ac ante ipsum
+                    primis in faucibus.</p>
+                       
+          </section>
+          
+      </div>
+
+      <div class="articles">
+         <h3>And Also<br><img src="images/h1-bg.png"></h3>
+              <section id="a1">
+                <div>
+                    <p>writing and <br> designing <br> articles...</p>
+                    <br>
+                    <a href="wordpress.com">See All Articles</a>
+                </div>
+                    
+              </section>
+
+              <section id="a2">
+                     <img src="images/thumb/thumb7.jpg">
+                     <img src="images/thumb/thumb8.jpg">
+                     <img src="images/thumb/thumb10.jpg">
+                     <img src="images/thumb/thumb6.jpg">
+                     <img src="images/thumb/thumb11.jpg">
+                     <img src="images/thumb/thumb15.jpg">
+                     <img src="images/thumb/thumb14.jpg">
+                     <img src="images/thumb/thumb13.jpg">
+                     <img src="images/thumb/thumb12.jpg">
+                     <img src="images/thumb/thumb5.jpg">
+                     <img src="images/thumb/thumb3.jpg">
+                     <img src="images/thumb/thumb2.jpg">
+                     
+                     
+              </section>
+
+      </div>
+      
+
+      <section class="partners">
+
+            
+
+      </section>
+      
+
+      <section class="mail">
+          <h1>acm.nith@gmail.com</h1>
+      </section>
+
+
+
+      <footer class="foots">
+
+      <div class="footer-left">
+
+        <h3>NIT-Hamirpur<span>ACM</span></h3>
+
+        <p class="footer-links">
+          <a href="#">Home</a>
+          ·
+          <a href="#">Gallery</a>
+          ·
+          <a href="#">Calendar</a>
+          ·
+          <a href="#">Articles</a>
+          ·
+          <a href="#">Faq</a>
+          ·
+          <a href="#">Contact</a>
+        </p>
+
+        <p class="foot-acm">acm &copy; 2015</p>
+      </div>
+
+      <div class="footer-center">
+
+        <div>
+          <i class="fa fa-map-marker"></i>
+          <p><span>NIT Hamirpur</span> Anu, Hamirpur</p>
+        </div>
+
+        <div>
+          <i class="fa fa-phone"></i>
+          <p>123456789</p>
+        </div>
+
+        <div>
+          <i class="fa fa-envelope"></i>
+          <p><a href="mailto:acm.efie.com">acmnith.com</a></p>
+        </div>
+
+      </div>
+
+      <div class="footer-right">
+
+        <p class="footer-company-about">
+          <span>About the Chapter</span>
+          amc i s  fe fjier eg rg girtgir rtiurth h .
+        </p>
+
+        <div class="footer-icons">
+
+          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-linkedin"></i></a>
+          <a href="#"><i class="fa fa-github"></i></a>
+
+        </div>
+
+      </div>
+
+    </footer>
+
+
+      <script type="text/javascript" src="jQuery.js"></script>
+   
+      <script>
+         
+    $(document).ready(function() {
+
+    	
+         $(window).scroll(function() {
+  
+  startArticles();
+
+});
+
+
+        $('.bt-menu-trigger').click(function(e){
+
+            var menu = $(this).data('show-dialog');
+
+            $('.' + menu).toggleClass('side-menu-shown');
+
+        });
+
+        $('.side-menu-close').on('click', function () {
+            $('.side-menu-basic').removeClass('side-menu-shown');
+        });
+
+        $('.side-menu-basic a').on('click', function (e) {
+            e.preventDefault();
+
+            alert('You chose option ' + $(this).data('id'));
+        });
+
+    });
+
+</script>
+
+
+</body>
+</html>
+
+
+
+

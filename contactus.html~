@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head> 
+	<title>Contact US</title><link rel="icon" href="images/acm-logo.jpg" type="image/x-icon" />
+  
+     <link rel="stylesheet" type="text/css" href="css/footer.css">
+        <link rel="stylesheet" type="text/css" href="css/head.css">
+        <link rel="stylesheet" type="text/css" href="demo.css" />
+        <link rel="stylesheet" type="text/css" href="css/style8.css" />
+        <link rel="stylesheet" type="text/css" href="css/data.css">
+         <link href='http://fonts.googleapis.com/css?family=Terminal+Dosis' rel='stylesheet' type='text/css' />
+    
+      
+		  <style>
+      *{
+        padding: 0;
+        margin: 0;
+        left: 0;
+      }
+      #map {
+        margin: 10px 0 0 0;
+        width:100%;
+        height: 500px;
+        position: relative;
+      }
+    
+      .content{
+        margin: 50px 0 100px 0;
+        height: auto;
+      }
+      .ca-menu li h3{
+        margin-bottom: 30px;
+      }
+
+      .ca-menu{
+        display: inline-block;
+        text-align: center;
+      }
+      
+      .cont img{
+          width: 100%;
+          max-width: 100%;
+          height: auto;
+          background-size: cover;
+
+      }
+      .cont {
+        margin: 70px 0 0 0;
+        position: relative;
+
+      }
+    
+
+    .head-ka-beech a{
+      
+
+    }
+    .head-top{
+      z-index: 2;
+    }
+    h3{
+      text-align: center;
+      font-size: 36px;
+    }
+    table{
+      position: relative;
+    }
+   
+    </style>
+		
+		 
+	</head>
+	<body>
+		<header class="head-top">
+
+  <div class="head-ka-beech">
+
+    <h1><a href="index.html"><img src="images/ACMOriginal.png"></a></h1>
+
+    <nav>
+      <a href="index.html">Home</a>
+      
+      <a href="gallery.html">Gallery</a>
+      <a href="about_us.html">About</a>
+      <a href="calendar.html">Calendar</a>
+      <a href="members.html">Members</a>
+      <a href="http://www.acmnith.wordpress.com" >Blog</a>
+      <a href="contactus.html" class="selected">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<div class="cont"><img src="images/contact-banner.jpg"></div>
+
+<div class="content">
+               
+                <ul class="ca-menu">
+                    <li>
+                        <a href="#">
+                            <span class="ca-icon">A</span>
+                            <div class="ca-content">
+                                <h2 class="ca-main">Exceptional Workshops</h2>
+                                <h3 class="ca-sub">Personalized to your needs</h3>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="ca-icon">H</span>
+                            <div class="ca-content">
+                                <h2 class="ca-main">Spreading Education</h2>
+                                <h3 class="ca-sub">Advanced use of technology</h3>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="ca-icon" id="heart">N</span>
+                            <div class="ca-content">
+                                <h2 class="ca-main">Coding & Learning</h2>
+                                <h3 class="ca-sub">Understanding visually</h3>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="ca-icon">K</span>
+                            <div class="ca-content">
+                                <h2 class="ca-main">Sophisticated Team</h2>
+                                <h3 class="ca-sub">Ask us any Query</h3>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="ca-icon">L</span>
+                            <div class="ca-content">
+                                <h2 class="ca-main">Unconditional Support</h2>
+                                <h3 class="ca-sub">24/7 for your needs</h3>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+
+   
+  
+        <table>
+           <thead>
+            <tr>
+                <td>Name</td>
+                <td>Designation</td>
+                <td>Phone No.(+91)</td>
+                <td>Email Id</td>
+              </tr>
+           </thead>
+           <tbody>
+                <tr>
+                  <td>Sumit Singh</td>
+                  <td>Chair</td>
+                  <td>-</td>
+                  <td>sumitsingh7@acm.org</td>
+                </tr>
+                <tr>
+                  <td>Himanshu Bairwa</td>
+                  <td>Vice-Chair</td>
+                  <td>-</td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <td>Rohit Nandan</td>
+                  <td>Treasurer</td>
+                  <td>9805143664</td>
+                  <td>rohitnandan39@gmail.com</td>
+                </tr>
+                <tr>
+                  <td>Arjun Suri</td>
+                  <td>Web Head</td>
+                  <td>9419277763</td>
+                  <td>arjunsuri1@acm.org</td>
+                </tr>
+                <tr>
+                  <td>Rajat Rana</td>
+                  <td>Web Head</td>
+                  <td>9882186728</td>
+                  <td>rajatrana1@acm.org</td>
+                </tr>
+                 <tr>
+                  <td>Ashutosh Gupta</td>
+                  <td>Logistics Manager</td>
+                  <td>9006764157</td>
+                  <td>ashutoshgupta5.acm.org</td>
+                </tr>
+                <tr>
+                  <td>Vibham Pandey</td>
+                  <td>Secretary</td>
+                  <td>9805249423</td>
+                  <td>vibhampandey@acm.org</td>
+                </tr><tr>
+                  <td>Avneesh Kumar Gupta</td>
+                  <td>Project Manager</td>
+                  <td>-</td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <td>Anil Kumar Chaurasiya</td>
+                  <td>Project Manager</td>
+                  <td>-</td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <td>Amit Gupta</td>
+                  <td>Event Quality Manager</td>
+                  <td>-</td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <td>Davis Deep</td>
+                  <td>Event Quality Manager</td>
+                  <td>8894751419</td>
+                  <td>deep.georgian@gmail.com</td>
+                </tr>
+                
+                <tr>
+                  <td>Ashutosh Singh</td>
+                  <td>Public Relations</td>
+                  <td>-</td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <td>Armaan Jain</td>
+                  <td>Public Relations</td>
+                  <td>-</td>
+                  <td>-</td>
+                </tr>
+               <tr>
+                  <td>Avantika Sharma</td>
+                  <td>Creative Head</td>
+                  <td>-</td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <td>Priya Vashisth</td>
+                  <td>Creative Head</td>
+                  <td>-</td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <td>Anubhuti Singh</td>
+                  <td>Technical Head</td>
+                  <td></td>
+                  <td>singh.anubhuti42@gmail.com</td>
+                </tr>
+                <tr>
+                  <td>Ashima Anand</td>
+                  <td>Technical Head</td>
+                  <td>-</td>
+                  <td>ashima1795@gmail.com</td>
+                </tr>
+            </tbody>
+        </table>
+         <h3>Reach Us At<br><img src="images/h1-bg.png"></h3>
+ 
+     <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:500px;width:100%;'><div id='gmap_canvas' style='height:500px;width:100%;'></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div> <a href='https://www.add-map.net/'>add google maps to my website</a> <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=f322ee5798686acee5d136cc146aa96b1b472cf1'></script><script type='text/javascript'>function init_map(){var myOptions = {zoom:15,center:new google.maps.LatLng(31.708395,76.5274694),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(31.708395,76.5274694)});infowindow = new google.maps.InfoWindow({content:'<strong>NIT Hamirpur</strong><br>ACM Student Chapter<br>177005 Hamirpur<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+  <footer class="foots">
+
+      <div class="footer-left">
+<h3>NIT HAMIRPUR - ACM</h3>
+
+        <p class="footer-links">
+         <a href="index.html">Home</a>
+          ·
+          <a href="gallery.html">Gallery</a>
+          ·
+          <a href="calendar.html">Calendar</a>
+          ·
+          <a href="http://www.acmnith.wordpress.com">Articles</a>
+          ·
+          <a href="contactus.html">Contact</a>
+        </p>
+
+        <p class="foot-acm">acm &copy; 2015</p>
+      </div>
+
+      <div class="footer-center">
+
+        <div>
+          <i class="fa fa-map-marker"></i>
+          <p><span>NIT Hamirpur</span> Anu, Hamirpur</p>
+        </div>
+
+        <div>
+          <i class="fa fa-phone"></i>
+          <p>9805143664</p>
+        </div>
+
+        <div>
+          <i class="fa fa-envelope"></i>
+        <p><a href="acmnith@gmail.com">acmnith@gmail.com</a></p></div>
+
+      </div>
+
+      <div class="footer-right">
+
+        <p class="footer-company-about">
+          <span>About the Chapter</span>
+          The world's largest educational and scientific computing society fostering knowledge, collaboration and innovation. ACM provides career development, professional networking, and lifelong learning.
+       </p>
+
+        <div class="footer-icons">
+
+          <a href="https://www.facebook.com/acmnith" target="_blank"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-linkedin"></i></a>
+          <a href="#"><i class="fa fa-github"></i></a>
+
+        </div>
+
+      </div>
+
+    </footer>
+
+
+ <script src="https://maps.googleapis.com/maps/api/js?callback=initMap" async defer></script>
+         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+
+
+	</body>
+</html>

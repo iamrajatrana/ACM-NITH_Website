@@ -1,0 +1,73 @@
+.col2-left,.col2-right,.col2-center{
+	opacity: 0;
+	transition: all 500ms ease-in;
+}
+.js-col2-left-animate {
+	opacity: 1;
+	animation: jiggle 500ms linear;
+}
+.img-zoom {
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .1s ease-in-out;
+    -o-transition: all .1s ease-in-out;
+    -ms-transition: all .1s ease-in-out;
+}
+ 
+.transition {
+    -webkit-transform: scale(1.1); 
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+@keyframes jiggle {
+			0% {
+				transform:scale(0);
+			}
+			20% {
+				transform:scale(0.2);
+			}
+			40% {
+				transform:scale(0.4);
+			}
+			60% {
+				transform:scale(0.6);
+			}
+			80% {
+				transform:scale(0.8);
+			}
+			100% {
+				transform:scale(1);
+			}
+		}
+.col3-left,.col3-right, .col3-center{
+	opacity: 0;
+	transition: all 500ms ease-in;
+}
+.js-col3-left-animate {
+	opacity: 1;
+	animation: jiggle 500ms linear;
+}
+.col4-left,.col4-right, .col4-center{
+	opacity: 0;
+	transition: all 500ms ease-in;
+}
+.js-col4-left-animate {
+	opacity: 1;
+	animation: jiggle 500ms linear;
+}
+.col5-left,.col5-right, .col5-center{
+	opacity: 0;
+	transition: all 500ms ease-in;
+}
+.js-col5-left-animate {
+	opacity: 1;
+	animation: jiggle 500ms linear;
+}
+.col6-left, .col6-right{
+	opacity: 0;
+	transition: all 500ms ease-in;
+}
+.js-col6-left-animate {
+	opacity: 1;
+	animation: jiggle 500ms linear;
+}

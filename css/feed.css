@@ -1,0 +1,37 @@
+body
+{
+   background:#e6e6e6;
+   font-family:helvetica;
+   height:2000px;
+   text-align:center;
+}
+
+#form{
+      position:fixed;
+	  width:380px;
+	  bottom:0px;
+	  height: auto;
+	  left:3%;
+	  z-index: 1000;
+	  
+}
+
+#feedback_button{
+     margin:0px;
+	 color:#ced8f6;
+	 height: 50px;
+	 width: 200px;
+	 cursor:pointer;
+	 font-style:oblique;
+	
+	 background-image: url("../images/facebook.png");
+	 background-position: center;
+	 background-size: cover;
+
+}
+
+
+form
+{
+     display:none;
+}
